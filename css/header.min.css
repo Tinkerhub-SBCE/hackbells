@@ -83,6 +83,7 @@ header .menu li a:hover {
 
 @media (max-width: 1000px) {
   header {
+    height: 45px;
     padding-right: 15px;
     display: flex;
     justify-content: flex-end;
