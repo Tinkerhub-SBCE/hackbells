@@ -68,3 +68,11 @@ $(document).ready(function () {
 		} // End if
 	});
 });
+
+
+function toggleMenu(){
+    const menuToggle = document.querySelector('.toggle')
+    const nav = document.querySelector('.menu')
+    menuToggle.classList.toggle('active')
+    nav.classList.toggle('active')
+}
