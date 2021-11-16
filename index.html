@@ -29,12 +29,6 @@
 <body class="snow">
 	<!-- ======= Header ======= -->
 	<header>
-		<div class="burger-container">
-			<div id="burger">
-				<div class="bar topBar"></div>
-				<div class="bar btmBar"></div>
-			</div>
-		</div>
 		<div class="icon icon-apple"><img src="#" alt="" /></div>
 		<div class="toggle" onclick="toggleMenu()"></div>
 		<ul class="menu">
@@ -42,7 +36,7 @@
 			<li class="menu-item"><a href="#about">About</a></li>
 			<li class="menu-item"><a href="#prizes">Prizes</a></li>
 			<li class="menu-item"><a href="#themes">Themes</a></li>
-			<li class="menu-item"><a href="#schedule">Schedule</a></li>
+			<li class="menu-item"><a href="#schedule-part">Schedule</a></li>
 			<li class="menu-item"><a href="#sponsors">Sponsors</a></li>
 			<li class="menu-item"><a href="#faq">FAQs</a></li>
 			<li class="menu-item"><a href="#contact">Contact Us</a></li>
@@ -162,8 +156,6 @@
 		<!-- ======= PRIZES ======= -->
 		<section id="prizes" class="prizes">
 			<div class="img-top">
-
-
 				<h2 class="section-title">Prizes 🎁</h2>
 				<div class="container">
 					<div class="row">
@@ -192,7 +184,8 @@
 							</div>
 						</div>
 					</div>
-				</div></div>
+				</div>
+			</div>
 		</section>
 		<!-- END PRIZES -->
 
@@ -274,132 +267,76 @@
 						</div>
 					</div>
 				</div>
-				<div class="theme-container">
-					<div class="row">
-						<div class="col-md-8 info">
-							<p class="theme-title">Open Innovation</p>
-							<p class="theme-info">
-								An open-ended theme where the only restriction is your imagination. Build the ideas that
-								you believe in and make a
-								difference. It can either be hardware or software.
-							</p>
-						</div>
-						<div class="col-md-4 image">
-							<img src="assets/images/themes/open-innovation.svg" alt="" />
-						</div>
-					</div>
-				</div>
-			</div>
 		</section>
 		<!-- END TRACKS -->
 
 		<!-- ======= SCHEDULE ======= -->
-		<section id="schedule" class="schedule">
-			<h2 class="section-title">Schedule ⌚</h2>
-			<div class="btn-wrapper">
-				<button id="day-1">Day-1</button>
-				<button id="day-2">Day-2</button>
-			</div>
-			<div id="schedule-D1">
-				<div class="timeline">
-					<div class="container- right" data-aos="fade-up">
-						<div class="text-wrapper">
-							<h2 class="day-num">DAY 1️⃣</h2>
+		<section id="schedule-part">
+			<h1 data-aos="fade-up" class="schedule-part-heading aos-init aos-animate">Schedule</h1>
+			<h2 class="schedule-part-subhead">December 10</h2>
+			<ul class="schedule-part-timeline" data-aos="fade-up">
+				<!-- Item 1 -->
+				<li>
+					<div class="schedule-part-direction-r">
+						<div class="schedule-part-flag-wrapper">
+							<span class="schedule-part-flag">Inaugural Ceremony</span><br>
+							<span class="schedule-part-time-line">6:00 PM - 7:00 PM</span>
 						</div>
 					</div>
+				</li>
+				<!-- Item 2 -->
+				<li>
+					<div class="schedule-part-direction-l">
+						<div class="schedule-part-flag-wrapper">
+							<span class="schedule-part-flag">Hackathon Begins</span><br>
+							<span class="schedule-part-time-line">8:00 PM</span>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<!-- Item 3 -->
+			<h2 class="schedule-part-subhead">December 11</h2>
+			<ul class="schedule-part-timeline" data-aos="fade-up">
+				<li>
+					<div class="schedule-part-direction-r">
+						<div class="schedule-part-flag-wrapper">
+							<span class="schedule-part-flag" style="padding-right: 40px;">First Round
+								Evaluation</span><br>
+							<span class="schedule-part-time-line">10:00 AM</span>
+						</div>
+					</div>
+				</li>
 
-					<div class="container- right" data-aos="fade-up">
-						<div class="text-wrapper">
-							<h2>
-								Lunch 🍛
-								<p>12:00PM - 2:00PM</p>
-							</h2>
-							<p>Lunch catered by campus mess.</p>
+				<li>
+					<div class="schedule-part-direction-l">
+						<div class="schedule-part-flag-wrapper">
+							<span class="schedule-part-flag">Second Round Evaluation</span><br>
+							<span class="schedule-part-time-line">7:00 PM</span>
 						</div>
 					</div>
+				</li>
+			</ul>
+			<h2 class="schedule-part-subhead">December 12</h2>
+			<ul class="schedule-part-timeline" data-aos="fade-up">
+				<li>
+					<div class="schedule-part-direction-r">
+						<div class="schedule-part-flag-wrapper">
+							<span class="schedule-part-flag" style="padding-right: 40px;">Final
+								Evaluation(Presentation)</span><br>
+							<span class="schedule-part-time-line">9:00 AM - 11:30 AM</span>
+						</div>
+					</div>
+				</li>
 
-					<div class="container- right" data-aos="fade-up">
-						<div class="text-wrapper">
-							<h2>
-								Hackathon Begins 💻
-								<p>2:00PM Onwards</p>
-							</h2>
-							<p>Brief introduction about rules and regulations and start brainstorm, implement ideas,
-								code the application.</p>
+				<li>
+					<div class="schedule-part-direction-l">
+						<div class="schedule-part-flag-wrapper">
+							<span class="schedule-part-flag">Closing Ceremony</span><br>
+							<span class="schedule-part-time-line">12:00 PM - 1:00 PM</span>
 						</div>
 					</div>
-
-					<div class="container- right" data-aos="fade-up">
-						<div class="text-wrapper">
-							<h2>
-								First Commit ✅
-								<p>2:00PM - 4:00PM</p>
-							</h2>
-							<p>Hackers should submit their finalised idea and work for the rest of the hackathon.</p>
-						</div>
-					</div>
-
-					<div class="container- right" data-aos="fade-up">
-						<div class="text-wrapper">
-							<h2>
-								Refreshments / Hack 🍔
-								<p>5:00PM to 5:30PM</p>
-							</h2>
-							<p>Snacks will be served and continue hacking.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div id="schedule-D2">
-				<div class="timeline">
-					<div class="container- right" data-aos="fade-up">
-						<div class="text-wrapper">
-							<h2 class="day-num">DAY 2️⃣</h2>
-						</div>
-					</div>
-
-					<div class="container- right" data-aos="fade-up">
-						<div class="text-wrapper">
-							<h2>
-								Second Commit ✅
-								<p>5:00AM - 12:00PM</p>
-							</h2>
-							<p>Hackers are required to submit their performed code.</p>
-						</div>
-					</div>
-
-					<div class="container- right" data-aos="fade-up">
-						<div class="text-wrapper">
-							<h2>
-								Breakfast 🥣
-								<p>2:00PM 3:00PM</p>
-							</h2>
-							<p>Breakfast will be served by campus mess.</p>
-						</div>
-					</div>
-
-					<div class="container- right" data-aos="fade-up">
-						<div class="text-wrapper">
-							<h2>
-								Evaluation 📈
-								<p>3:00PM - 6:00PM</p>
-							</h2>
-							<p>Inspection by judges and teams are finalized.</p>
-						</div>
-					</div>
-
-					<div class="container- right" data-aos="fade-up">
-						<div class="text-wrapper">
-							<h2>
-								Prize Announcement 🥇
-								<p>7:00PM</p>
-							</h2>
-							<p>Pitching up ideas and each team is given 5 minutes to present.</p>
-						</div>
-					</div>
-				</div>
-			</div>
+				</li>
+			</ul>
 		</section>
 		<!-- END SCHEDULE -->
 
