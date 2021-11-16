@@ -1,3 +1,5 @@
+document.body.className  = "snow";
+$(document).snowfall();
 var options = {
 	strings: [
 		'Create',
