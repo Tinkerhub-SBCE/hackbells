@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Ek+Mukta:200);
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;600;700&display=swap');
 header {
   padding: 0;
   margin: 0;
@@ -56,23 +56,20 @@ header .menu .logo-laptop {
 header .menu li a {
   display: inline-block;
   color: #fff;
-  font-weight: 500;
   margin-left: 20px;
   text-decoration: none;
   padding: 4px 12px;
   transition: 0.05s ease;
   text-decoration: none;
-  font-family: 'Ek Mukta', sans-serif;
-  font-size: 1.2rem;
+  font-family: 'Spartan', sans-serif;
+  font-size: 1.3rem;
 }
 header .menu li a:hover {
   background-color: #fff;
   color: rgba(0, 0, 0, 0.8);
   border: none;
   border-radius: 12px;
-  font-size: 1.2rem;
-  font-weight: 500;
-  font-weight: bolder;
+  font-size: 1.3rem;
 }
 
 @media (max-width: 890px) {
