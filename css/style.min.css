@@ -300,6 +300,8 @@ main {
   font-weight: 600;
   margin-top: 0;
   padding: 0;
+  background-color: #000;
+  z-index: 2;
 }
 
 .logos {
