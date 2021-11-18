@@ -309,8 +309,54 @@ main {
 }
 
 @media screen and (max-width: 900px) {
+  .hero {
+    margin: 0;
+    padding: 0 10px;
+  }
+
   .btn-wrapper {
     display: flex !important;
+  }
+
+  .glitter {
+    display: none;
+  }
+
+  .main-logo {
+    width: 180%;
+    height: fit-content;
+    padding: 0;
+  }
+
+  #hero > div > div > div.col-md-6.left {
+    margin: 0px;
+    padding-right: 5px;
+    gap: 50px;
+  }
+
+  #hero > div > div > div.col-md-6.right {
+    margin-left: 10px;
+  }
+  #hero > div > div > div.col-md-6.left > div:nth-child(1) > div {
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+  }
+
+  .btn-wrapper {
+    margin-bottom: 30px;
+  }
+  .logos {
+    justify-content: space-around;
+  }
+
+  .college-logo {
+    width: 140px;
+    height: 120px;
+  }
+
+  .home-right-bottom {
+    margin: 0;
+    padding-left: 10px;
   }
 }
 
