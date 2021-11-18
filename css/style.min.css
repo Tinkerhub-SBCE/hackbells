@@ -24,6 +24,7 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
   font-family: 'Spartan', sans-serif;
+  cursor: url('../assets/images/close.png'), auto;
 }
 
 body::-webkit-scrollbar {
@@ -253,8 +254,58 @@ main {
   align-items: center;
 }
 
-.hero .container-fluid .row .right img {
+.main-logo {
   width: 150%;
+  height: 500px;
+}
+
+.glitter {
+  position: absolute;
+  left: -20px;
+  top: -100px;
+  width: 120%;
+}
+
+.right {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.college-logo {
+  width: 125px;
+  height: 125px;
+  padding-right: 20px;
+  margin-right: 40px;
+}
+
+.logos img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  margin: auto;
+  display: block;
+}
+
+.home-right-bottom {
+  width: 100%;
+  height: fit-content;
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 0;
+  padding: 0;
+}
+
+.logos {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main-logo {
+  padding-top: 50px;
 }
 
 @media screen and (max-width: 900px) {
