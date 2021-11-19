@@ -1267,6 +1267,7 @@ footer a:hover {
 
 footer p {
   font-size: 1.5rem;
+  padding-left: 10px;
 }
 
 @media screen and (max-width: 900px) {
