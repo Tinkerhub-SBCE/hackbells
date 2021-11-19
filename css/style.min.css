@@ -1144,6 +1144,11 @@ footer {
   position: relative;
   background-color: rgb(230 64 44);
   color: #fff;
+  background-image: url('../assets/images/web.png');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding: 20px;
 }
 
 footer>img {
