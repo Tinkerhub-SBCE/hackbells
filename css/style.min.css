@@ -1008,6 +1008,13 @@ main {
   padding: 0 130px;
 }
 
+.faq a{
+  color: rgb(51, 51, 51);
+}
+.faq .open .submenu .answer{
+  background-color:rgba(51, 51, 51, 0.479)
+}
+
 .team h3.info {
   text-align: center;
   padding: 0 20px 50px 20px;
