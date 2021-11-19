@@ -399,6 +399,8 @@ main {
   overflow: hidden;
   line-height: 1.5;
   width: 100%;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .about-us .img-top {
