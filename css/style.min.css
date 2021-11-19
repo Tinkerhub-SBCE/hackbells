@@ -452,7 +452,7 @@ main {
 }
 
 .prizes {
-  height: 200vh;
+  height: 250vh;
   background-color: #ea4630;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -465,10 +465,11 @@ main {
 .prizes .img-top {
   top: 0px;
   bottom: 0px;
-  height: 200vh;
-  background-image: url(../assets/images/prizes/bg.png);
+  height: 250vh;
+  background: url(../assets/images/prizes/bg-up.png) no-repeat 0 0,
+    url(../assets/images/prizes/bg-down.png) no-repeat 0 100%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1950px auto;
   padding-top: 60px;
   z-index: 3;
 }
@@ -505,7 +506,7 @@ main {
 }
 
 .prizes .container .prize-card {
-  height: 600px;
+  height: 650px;
   width: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -531,6 +532,8 @@ main {
   text-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
   background: rgba(255, 255, 255, 0.2);
   box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .prizes li {
@@ -540,6 +543,11 @@ main {
 .prizes .container .prize-card img{
   height:auto;
   width: 300px;
+}
+
+.prizes .container .prize-card .spon img{
+    height:auto;
+    width: 250px;
 }
 
 .prizes .container .prize-card:hover {
