@@ -1,7 +1,7 @@
 .page-loader{
 	width: 100%;
 	height: 100vh;
-	position: absolute;
+	position: fixed;
 	background: #EA4630;
 	z-index: 10001;
 	
