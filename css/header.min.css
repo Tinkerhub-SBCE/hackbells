@@ -62,14 +62,14 @@ header .menu li a {
   transition: 0.05s ease;
   text-decoration: none;
   font-family: 'Spartan', sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 header .menu li a:hover {
   background-color: #fff;
   color: rgba(0, 0, 0, 0.8);
   border: none;
   border-radius: 12px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
 }
 
 @media (max-width: 890px) {

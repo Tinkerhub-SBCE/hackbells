@@ -24,7 +24,13 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
   font-family: 'Spartan', sans-serif;
+  cursor: url('../assets/images/pngwing.com\ \(1\).png'), auto;
 }
+
+/* Start https://www.cursors-4u.com */
+* {
+  cursor: url(https://cur.cursors-4u.net/holidays/hol-5/hol417.cur), auto !important;
+} /* End https://www.cursors-4u.com */
 
 body::-webkit-scrollbar {
   display: none;
@@ -57,7 +63,7 @@ main {
 .hero {
   height: 100vh;
   width: 100%;
-  background-color: #111013;
+  background-color: #000000;
   position: relative;
   overflow: hidden;
 }
@@ -253,13 +259,111 @@ main {
   align-items: center;
 }
 
-.hero .container-fluid .row .right img {
+.main-logo {
   width: 150%;
+  height: 500px;
+}
+
+.glitter {
+  position: absolute;
+  left: -20px;
+  top: -100px;
+  width: 120%;
+}
+
+.right {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.college-logo {
+  width: 125px;
+  height: 125px;
+  padding-right: 20px;
+  margin-right: 40px;
+}
+
+.logos img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  margin: auto;
+  display: block;
+}
+
+.home-right-bottom {
+  width: 100%;
+  height: fit-content;
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 0;
+  padding: 0;
+  background-color: #000;
+  z-index: 2;
+}
+
+.logos {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main-logo {
+  padding-top: 50px;
 }
 
 @media screen and (max-width: 900px) {
+  .hero {
+    margin: 0;
+    padding: 0 10px;
+  }
+
   .btn-wrapper {
     display: flex !important;
+  }
+
+  .glitter {
+    display: none;
+  }
+
+  .main-logo {
+    width: 180%;
+    height: fit-content;
+    padding: 0;
+  }
+
+  #hero > div > div > div.col-md-6.left {
+    margin: 0px;
+    padding-right: 5px;
+    gap: 50px;
+  }
+
+  #hero > div > div > div.col-md-6.right {
+    margin-left: 10px;
+  }
+  #hero > div > div > div.col-md-6.left > div:nth-child(1) > div {
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+  }
+
+  .btn-wrapper {
+    margin-bottom: 30px;
+  }
+  .logos {
+    justify-content: space-around;
+  }
+
+  .college-logo {
+    width: 140px;
+    height: 120px;
+  }
+
+  .home-right-bottom {
+    margin: 0;
+    padding-left: 10px;
   }
 }
 
