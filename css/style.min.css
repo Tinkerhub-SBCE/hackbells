@@ -24,15 +24,7 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
   font-family: 'Spartan', sans-serif;
-  cursor: url('../assets/images/pngwing.com\ \(1\).png'), auto;
 }
-
-/* Start https://www.cursors-4u.com */
-* {
-  cursor: url(https://cur.cursors-4u.net/holidays/hol-5/hol417.cur), auto !important;
-}
-
-/* End https://www.cursors-4u.com */
 
 body::-webkit-scrollbar {
   display: none;
@@ -263,14 +255,7 @@ main {
 
 .main-logo {
   width: 150%;
-  height: 500px;
-}
-
-.glitter {
-  position: absolute;
-  left: -20px;
-  top: -100px;
-  width: 120%;
+  height: 490px;
 }
 
 .right {
@@ -297,12 +282,11 @@ main {
   width: 100%;
   height: fit-content;
   color: #fff;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   font-size: 1.2rem;
   font-weight: 600;
   margin-top: 0;
   padding: 0;
-  background-color: #000;
   z-index: 2;
 }
 
@@ -314,7 +298,7 @@ main {
 }
 
 .main-logo {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 @media screen and (max-width: 900px) {
@@ -325,10 +309,6 @@ main {
 
   .btn-wrapper {
     display: flex !important;
-  }
-
-  .glitter {
-    display: none;
   }
 
   .main-logo {
@@ -729,14 +709,6 @@ main {
   height: auto;
   border-radius: 10%;
   border: 10px solid transparent;
-}
-
-#sponsors img {
-  border-radius: 20px;
-}
-
-#sponsors a {
-  border-color: 2px solid #fff;
 }
 
 .sponsors .img-top {
@@ -1143,14 +1115,14 @@ main {
 
 .contact .container .info {
   margin-top: 60px;
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 600;
   color: rgba(0, 0, 0, 0.8);
   text-align: center;
 }
 
 .contact .container .email {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .contact .container .email a,
@@ -1165,13 +1137,13 @@ main {
 .contact .container .email a:hover,
 .contact .container .email a:visited:hover,
 .contact .container .email a:active:hover {
-  border-bottom: 7px solid #1c1b20;
+  border-bottom: 4px solid #1c1b20;
 }
 
 footer {
   position: relative;
-  overflow: hidden;
-  background-image: url('../assets/images/11111111111111111.jpg');
+  background-color: rgb(230 64 44);
+  color: #fff;
 }
 
 footer>img {
@@ -1182,7 +1154,6 @@ footer>img {
 
 .f-content {
   position: relative;
-  margin: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -1190,14 +1161,19 @@ footer>img {
 
 .f-content h4 {
   font-size: 1.7rem;
-  font-weight: bolder;
-  color: #000;
   margin: 10px 0px;
 }
 
+.f-sec-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .f-sec-logo img {
-  width: 400px;
-  height: 400px;
+  width: 25rem;
+  height: 380px;
 }
 
 .f-sec1-links,
@@ -1208,18 +1184,55 @@ footer>img {
   padding-left: 10px;
 }
 
+.f-sec3,
+.f-sec2,
+.f-sec1 {
+  width: 23.3333%;
+}
+
 footer a {
+  color: #fff;
+}
+
+.f-sec-logo {
+  width: 30%;
+}
+
+.f-sec3 p {
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1200px) {
+  .f-sec-logo,
+  .f-sec3,
+  .f-sec2,
+  .f-sec1 {
+    width: 50%;
+    padding: 20px 0px 0px 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .f-sec-logo,
+  .f-sec3,
+  .f-sec2,
+  .f-sec1 {
+    width: 100%;
+    padding: 20px 0px 0px 20px;
+  }
+}
+
+footer a,
+footer p {
   text-decoration: none;
-  color: rgb(0, 0, 0);
   padding-left: 5px;
   font-size: 1.3rem;
-  font-weight: bold;
   margin: 5px 0px;
 }
 
 footer a:hover {
-  text-decoration: none;
-  color: #0d1938;
+  text-decoration: underline;
+  color: #111;
 }
 
 footer p {
@@ -1240,11 +1253,12 @@ footer p {
 }
 
 .contact-link {
-  color: #232d37;
+  color: #fff;
   transition: transform 0.05s ease-in;
   padding-right: 40px;
 }
 
 .contact-link:hover {
-  transform: scale(1.1);
+  transform: scale(1.15);
+  color: #111;
 }
