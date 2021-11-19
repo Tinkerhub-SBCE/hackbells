@@ -116,7 +116,7 @@ header .menu li a:hover {
     flex-direction: column;
     z-index: 2;
     overflow-y: hidden;
-    opacity: 0.8;
+    opacity: 0.9;
   }
 
   .menu.active > li {
