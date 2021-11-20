@@ -1,5 +1,1 @@
-$(window).on('load',function(){
-	setTimeout(function(){ // allowing 3 secs to fade out loader
-	$('.page-loader').fadeOut('slow');
-	},2000);
-});
+$(window).on("load",function(){setTimeout(function(){$(".page-loader").fadeOut("slow")},2e3)});
