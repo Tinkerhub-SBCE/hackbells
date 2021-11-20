@@ -1317,3 +1317,19 @@ footer p {
   transform: scale(1.15);
   color: #111;
 }
+
+
+#scrollToTopBtn {
+  background-color: black;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  border-radius:25px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 48px;
+  width: 48px;
+  z-index:10;
+}

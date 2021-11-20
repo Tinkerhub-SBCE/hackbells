@@ -222,7 +222,7 @@
 				<h2 class="section-title">Prizes 🎁</h2>
 				<div class="container">
 					<div class="row">
-						<div class="col-md-4">
+						<div class="col-md-4 ">
 							<div class="prize-card first">
 								<img src="assets/images/prizes/gift-box.png" alt="" />
 								<div>
@@ -653,6 +653,7 @@
 				<!--The support team is here to help you. Register your queries in this form or mail us at-->
 			</div>
 		</section>
+		<button id="scrollToTopBtn">☝️</button>
 		<footer>
 			<div class="f-content">
 				<div class="f-sec-logo">
@@ -715,6 +716,19 @@
 
 	<!--vendor javascript-->
 	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+	<script>
+				var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+		var rootElement = document.documentElement;
+
+		function scrollToTop() {
+		// Scroll to top logic
+		rootElement.scrollTo({
+			top: 0,
+			behavior: "smooth"
+		});
+		}
+		scrollToTopBtn.addEventListener("click", scrollToTop);
+	</script>
 
 	<!--main javascript-->
 	<script src='js/snowfall.jquery.min.js'></script>
