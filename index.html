@@ -728,6 +728,15 @@
 		});
 		}
 		scrollToTopBtn.addEventListener("click", scrollToTop);
+
+		$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 200) {
+    $('#scrollToTopBtn').fadeIn();
+  } else {
+    $('#scrollToTopBtn').fadeOut();
+  }
+});
 	</script>
 
 	<!--main javascript-->
