@@ -313,7 +313,7 @@ main {
 
   .main-logo {
     width: 180%;
-    height: fit-content;
+    height: auto;
     padding: 0;
   }
 
