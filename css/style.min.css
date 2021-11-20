@@ -636,6 +636,7 @@ main {
   background-image: url('../assets/images/main-back.png');
   color: #fff;
   padding-bottom: 0px;
+  padding-top: 0px;
 }
 
 .theme-container {
@@ -655,7 +656,7 @@ main {
   color: #fff;
   border: 2px solid black;
   width: 40%;
-  margin: 15px;
+  margin: 30px;
   padding: 30px;
   border-radius: 1rem;
   border: 1px solid rgba(207, 198, 198, 0.5);
