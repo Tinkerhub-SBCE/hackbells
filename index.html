@@ -653,7 +653,7 @@
 				<!--The support team is here to help you. Register your queries in this form or mail us at-->
 			</div>
 		</section>
-		<button id="scrollToTopBtn">☝️</button>
+		<button id="scrollToTopBtn" >☝️</button>
 		<footer>
 			<div class="f-content">
 				<div class="f-sec-logo">
@@ -716,10 +716,13 @@
 
 	<!--vendor javascript-->
 	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-	<script>
-				var scrollToTopBtn = document.getElementById("scrollToTopBtn");
-		var rootElement = document.documentElement;
+	
 
+	<!--main javascript-->
+	<script src='js/snowfall.jquery.min.js'></script>
+	<script>
+		 var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+		var rootElement = document.documentElement;
 		function scrollToTop() {
 		// Scroll to top logic
 		rootElement.scrollTo({
@@ -730,18 +733,14 @@
 		scrollToTopBtn.addEventListener("click", scrollToTop);
 
 		$(document).scroll(function() {
-  var y = $(this).scrollTop();
-  if (y > 200) {
-    $('#scrollToTopBtn').fadeIn();
-  } else {
-    $('#scrollToTopBtn').fadeOut();
-  }
-});
+		var y = $(this).scrollTop();
+		if (y > 400) {
+			$('#scrollToTopBtn').fadeIn();
+		} else {
+			$('#scrollToTopBtn').fadeOut();
+		}
+		});
 	</script>
-
-	<!--main javascript-->
-	<script src='js/snowfall.jquery.min.js'></script>
-
 	<script src="js/script.js"></script>
 	<script src="js/timmer.js"></script>
 	<script src="js/header.js"></script>
