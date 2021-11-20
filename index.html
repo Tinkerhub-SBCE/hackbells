@@ -734,7 +734,7 @@
 
 		$(document).scroll(function() {
 		var y = $(this).scrollTop();
-		if (y > 400) {
+		if (y > 500 || y == undefined) {
 			$('#scrollToTopBtn').fadeIn();
 		} else {
 			$('#scrollToTopBtn').fadeOut();
