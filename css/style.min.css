@@ -454,7 +454,7 @@ main {
 }
 
 .prizes {
-  height: 250vh;
+  height: 300vh;
   background-color: #ea4630;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -467,7 +467,7 @@ main {
 .prizes .img-top {
   top: 0px;
   bottom: 0px;
-  height: 250vh;
+  height: 300vh;
   background: url(../assets/images/prizes/bg-up.png) no-repeat 0 0,
     url(../assets/images/prizes/bg-down.png) no-repeat 0 100%;
   background-repeat: no-repeat;
