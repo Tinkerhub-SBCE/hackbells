@@ -564,6 +564,9 @@ main {
   box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
   padding-left: 5px;
   padding-right: 5px;
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
 }
 
 .prizes li {
@@ -1347,7 +1350,10 @@ footer p {
 }
 
 #scrollToTopBtn {
-  background-color: black;
+  text-shadow: 0 0 1em rgb(0 0 0 / 50%);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: rgb(0 0 0 / 20%) 7px 7px 16px 9px;
+  backdrop-filter: blur(3px);
   position: fixed;
   bottom: 10px;
   right: 10px;
@@ -1359,4 +1365,13 @@ footer p {
   line-height: 48px;
   width: 48px;
   z-index: 10;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  transition-duration: 500ms;
+}
+
+#scrollToTopBtn:hover{
+  background: rgba(0, 0, 0, 0.658);
 }
