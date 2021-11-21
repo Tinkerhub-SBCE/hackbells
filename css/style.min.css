@@ -259,8 +259,15 @@ main {
 }
 
 .main-logo {
-  width: 150%;
-  height: 490px;
+  width: 70%;
+  height: auto;
+}
+
+@media only screen and (max-width: 762px) {
+  .main-logo {
+    width: 50%;
+    height: auto;
+  }
 }
 
 .right {
@@ -303,7 +310,10 @@ main {
 }
 
 .main-logo {
-  padding-top: 40px;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 @media screen and (max-width: 900px) {
@@ -317,9 +327,12 @@ main {
   }
 
   .main-logo {
-    width: 180%;
+    width: 100%;
     height: auto;
-    padding: 0;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   #hero>div>div>div.col-md-6.left {
@@ -355,6 +368,35 @@ main {
     padding-left: 10px;
   }
 }
+
+@media only screen and (max-width: 900px) {
+  .hero .row {
+    flex-wrap: nowrap !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  .hero .row .left{
+    margin-top: 80px !important;
+  }
+}
+
+@media only screen and (max-width: 762px) {
+  .hero .row {
+    flex-wrap: wrap-reverse !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+  }
+  .hero .row .left{
+    margin-top: 0px !important;
+  }
+  
+}
+  
 
 .about .container-fluid .row {
   -webkit-box-pack: center;
@@ -1218,13 +1260,13 @@ footer>img {
   font-size: 1rem;
 }
 
-.cpy p{
+.cpy p {
   font-size: 1rem;
   color: #ffa194;
 }
 
-.cpy a{
-  color:bisque;
+.cpy a {
+  color: bisque;
   font-size: 1.2rem;
 }
 
@@ -1249,7 +1291,7 @@ footer>img {
 }
 
 .f-sec-logo img {
-  width: 30rem;
+  width: 20rem;
   height: auto;
 }
 
@@ -1315,7 +1357,7 @@ footer p {
   margin: 5px 0px;
 }
 
-footer .text{
+footer .text {
   font-size: 1rem;
   color: bisque;
 }
@@ -1325,11 +1367,6 @@ footer p {
   padding-left: 10px;
 }
 
-@media screen and (max-width: 900px) {
-  .f-content {
-    flex-direction: column;
-  }
-}
 
 .f-sec3-links {
   height: 60px;
@@ -1346,7 +1383,8 @@ footer p {
 
 .contact-link:hover {
   transform: scale(1.15);
-  color: rgb(46, 46, 46);;
+  color: rgb(46, 46, 46);
+  ;
 }
 
 #scrollToTopBtn {
@@ -1372,6 +1410,6 @@ footer p {
   transition-duration: 500ms;
 }
 
-#scrollToTopBtn:hover{
+#scrollToTopBtn:hover {
   background: rgba(0, 0, 0, 0.658);
 }
