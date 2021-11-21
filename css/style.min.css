@@ -377,7 +377,8 @@ main {
     justify-content: center;
     align-content: center;
   }
-  .hero .row .left{
+
+  .hero .row .left {
     margin-top: 80px !important;
   }
 }
@@ -391,12 +392,13 @@ main {
     align-content: center;
 
   }
-  .hero .row .left{
+
+  .hero .row .left {
     margin-top: 0px !important;
   }
-  
+
 }
-  
+
 
 .about .container-fluid .row {
   -webkit-box-pack: center;
@@ -1276,6 +1278,7 @@ footer>img {
   flex-wrap: wrap;
   justify-content: space-between;
   text-transform: uppercase;
+  margin-top: 30px;
 }
 
 .f-content h4 {
@@ -1329,14 +1332,14 @@ footer a:hover {
 
 @media only screen and (max-width: 1200px) {
 
-  
   .f-sec3,
   .f-sec2,
   .f-sec1 {
     width: 50%;
     padding: 20px 0px 0px 20px;
   }
-  .f-sec-logo{
+
+  .f-sec-logo {
     width: 50%;
     padding: 10px 10px 10px 10px;
   }
@@ -1350,9 +1353,14 @@ footer a:hover {
     width: 100%;
     padding: 20px 0px 0px 20px;
   }
-  .f-sec-logo{
+
+  .f-sec-logo {
     width: 100%;
     padding: 10px 10px 10px 10px;
+  }
+
+  .f-content {
+    margin-top: 10px;
   }
 }
 
