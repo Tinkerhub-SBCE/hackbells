@@ -1,8 +1,1 @@
-(function(){
-    var burger = document.querySelector('.burger-container'),
-        header = document.querySelector('header');
-    
-    burger.onclick = function() {
-        header.classList.toggle('menu-opened');
-    }
-}());
+!function(){var e=document.querySelector(".burger-container"),n=document.querySelector("header");e.onclick=function(){n.classList.toggle("menu-opened")}}();
