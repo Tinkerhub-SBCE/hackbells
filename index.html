@@ -71,9 +71,9 @@
 			<li class="menu-item"><a href="#about-us">About</a></li>
 			<li class="menu-item"><a href="#prizes">Prizes</a></li>
 			<li class="menu-item"><a href="#schedule-part">Schedule</a></li>
-			<li class="menu-item"><a href="#themes">Themes</a></li>			
+			<li class="menu-item"><a href="#themes">Themes</a></li>
 			<li class="menu-item"><a href="#faq">FAQs</a></li>
-			<li class="menu-item"><a href="#sponsors">Sponsors</a></li>			
+			<li class="menu-item"><a href="#sponsors">Sponsors</a></li>
 			<li class="menu-item"><a href="#contact">Contact Us</a></li>
 		</ul>
 	</header>
@@ -140,12 +140,8 @@
 						</div>
 
 						<div class="btn-wrapper">
-							<button class="devfolio">
-								<img src="assets/icons/devfolio.svg" alt="" />
-								<span>Apply with Devfolio</span>
-							</button>
-
-
+							<div class="apply-button" data-hackathon-slug="hackbells"
+								data-button-theme="light" style="height: 44px; width: 312px"></div>
 						</div>
 					</div>
 					<div class="col-md-6 right">
@@ -333,7 +329,7 @@
 		</section>
 		<!-- END PRIZES -->
 
-		
+
 
 		<!-- ======= SCHEDULE ======= -->
 		<section id="schedule-part">
@@ -431,7 +427,8 @@
 				<div class="theme-card theme3">
 					<img src="assets/images/themes/travel-map.png" alt="tourism">
 					<h3 class="themecard-heading">Tourism</h3>
-					<blockquote>Innovate and help tourists to reduce costs, improve customer hospitality, hospitality automation, navigation, etc...</blockquote>
+					<blockquote>Innovate and help tourists to reduce costs, improve customer hospitality, hospitality
+						automation, navigation, etc...</blockquote>
 				</div>
 				<div class="theme-card theme2">
 					<img src="assets/images/themes/innovation.png" alt="innovation">
@@ -443,7 +440,7 @@
 		</section>
 		<!-- END TRACKS -->
 
-		
+
 
 		<!-- ======= FAQs ======= -->
 		<!-- ======= FAQs ======= -->
@@ -673,7 +670,7 @@
 				<!--The support team is here to help you. Register your queries in this form or mail us at-->
 			</div>
 		</section>
-		<button id="scrollToTopBtn" >☝️</button>
+		<button id="scrollToTopBtn">☝️</button>
 		<footer>
 			<div class="f-content">
 				<div class="f-sec-logo">
@@ -686,9 +683,9 @@
 						<a href="#about">About</a>
 						<a href="#prizes">Prizes</a>
 						<a href="#schedule-part">Schedule</a>
-						<a href="#themes">Themes</a>						
+						<a href="#themes">Themes</a>
 						<a href="#faq">FAQs</a>
-						<a href="#sponsors">Sponsors</a>						
+						<a href="#sponsors">Sponsors</a>
 						<a href="#contact">Contact Us</a>
 					</div>
 				</div>
@@ -740,29 +737,29 @@
 
 	<!--vendor javascript-->
 	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-	
+
 
 	<!--main javascript-->
 	<script src='js/snowfall.jquery.min.js'></script>
 	<script>
-		 var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+		var scrollToTopBtn = document.getElementById("scrollToTopBtn");
 		var rootElement = document.documentElement;
 		function scrollToTop() {
-		// Scroll to top logic
-		rootElement.scrollTo({
-			top: 0,
-			behavior: "smooth"
-		});
+			// Scroll to top logic
+			rootElement.scrollTo({
+				top: 0,
+				behavior: "smooth"
+			});
 		}
 		scrollToTopBtn.addEventListener("click", scrollToTop);
 
-		$(document).scroll(function() {
-		var y = $(this).scrollTop();
-		if (y > 500 || y == undefined) {
-			$('#scrollToTopBtn').fadeIn();
-		} else {
-			$('#scrollToTopBtn').fadeOut();
-		}
+		$(document).scroll(function () {
+			var y = $(this).scrollTop();
+			if (y > 500 || y == undefined) {
+				$('#scrollToTopBtn').fadeIn();
+			} else {
+				$('#scrollToTopBtn').fadeOut();
+			}
 		});
 	</script>
 	<script src="js/script.js"></script>
@@ -770,6 +767,7 @@
 	<script src="js/header.js"></script>
 	<script src="js/accordion.js"></script>
 	<script src="js/canvas-particle.js"></script>
+	<script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
 </body>
 
 </html>
