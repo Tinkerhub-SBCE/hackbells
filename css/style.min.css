@@ -529,7 +529,7 @@ main {
     height: auto;
     background: url(../assets/images/prizes/bg-up.png) no-repeat 0 0, url(../assets/images/prizes/bg-down.png) no-repeat 0 100%;
     background-repeat: no-repeat;
-    background-size: 1950px auto;
+    background-size: 100hv auto;
     padding-top: 60px;
     z-index: 3;
 }
