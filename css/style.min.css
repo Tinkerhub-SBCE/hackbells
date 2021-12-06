@@ -1,9 +1,6 @@
-@import url(https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap);
-@import url(https: //fonts.googleapis.com/css2?family=Spartan:wght@300;
- 400;
-500;
-600;
-700&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -389,32 +386,7 @@ main {
     }
 }
 
-.about .container-fluid .row {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
 
-.about .container-fluid .row .col-md-8 .title {
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 4rem;
-    font-weight: 700;
-}
-
-.about .container-fluid .row .col-md-8 .content {
-    text-align: justify;
-    font-size: 1.5rem;
-}
-
-.about .container-fluid .row .col-md-8 .content div {
-    text-align: center;
-    font-weight: 700;
-}
-
-.about .container-fluid .first {
-    margin-bottom: 50px!important;
-}
 
 .about-us {
     position: relative;
@@ -1425,4 +1397,110 @@ footer p {
 
 #scrollToTopBtn:hover {
     background: rgba(0, 0, 0, .658);
+}
+
+/*  Speakers */
+
+.speakers .container-fluid .row {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.speakers .container-fluid .row .col-md-8 .title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.speakers .container-fluid .row .col-md-8 .content {
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+.speakers .container-fluid .row .col-md-8 .content div {
+    text-align: center;
+    font-weight: 700;
+}
+
+.speakers .container-fluid .first {
+    margin-bottom: 50px!important;
+}
+
+.speakers .card img{
+    height: 350px;
+    width: 350px; 
+    object-fit: fill;
+}
+
+.speakers .row2 .card img{
+    height: 300px;
+    width: 300px; 
+    margin: 20px 0px;
+}
+
+.speakers .card .name{
+    font-size:1.9rem;
+    font-weight:800;
+}
+
+.speakers .card .position{
+    font-size: 1.5rem;
+}
+
+.speakers .card {
+    text-align: center;
+    text-shadow: none;
+    width: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 50px;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+    -webkit-transform: scale(.8);
+    transform: scale(.8);
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, .5);
+    /* text-shadow: 0 0 1em rgba(0, 0, 0, .5); */
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19)!important;
+    padding: 10px;
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    -o-transform: scale(.8);
+}
+
+.speakers .card-main{
+    height: 650px ;
+}
+
+.speakers .card img {
+    /* width: 300px; */
+}
+
+.speakers .row .row2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+@media only screen and (max-width:982px) {
+    .speakers .row .row2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
 }
