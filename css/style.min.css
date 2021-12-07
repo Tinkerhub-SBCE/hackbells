@@ -1447,12 +1447,18 @@ footer p {
 
 .speakers .card .position{
     font-size: 1.5rem;
+    font-weight:600;
+}
+
+.speakers .card .task{
+    font-size:1.5rem;
+    
 }
 
 .speakers .card {
     text-align: center;
     text-shadow: none;
-    width: 400px;
+    width: 450px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1487,9 +1493,6 @@ footer p {
     height: 650px ;
 }
 
-.speakers .card img {
-    /* width: 300px; */
-}
 
 .speakers .row .row2 {
     display: flex;
@@ -1504,3 +1507,8 @@ footer p {
         flex-direction: row;
     }
 }
+
+.title{
+    text-align: center;
+}
+
