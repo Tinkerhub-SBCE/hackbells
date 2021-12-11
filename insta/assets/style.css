@@ -9,11 +9,9 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+    height: auto;
     padding-bottom: 20px;
 }
-
-
 
 .header {
     text-align: center;
@@ -45,6 +43,7 @@ body {
 .rules {
     width: 70%;
     margin: 0 auto;
+    padding-bottom: 20px;
 }
 
 .rules h1 {
@@ -92,7 +91,7 @@ footer {
     position: relative;
     background-color: rgb(230 64 44);
     color: #fff;
-    background-image: url(../assets/images/web.png);
+    background-image: url('https://hackbells.tech//assets/images/web.png');
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
