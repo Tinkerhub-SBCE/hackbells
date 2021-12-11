@@ -1511,4 +1511,8 @@ footer p {
 .title{
     text-align: center;
 }
-
+/*Prizes section arcana image*/
+.arcana{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
