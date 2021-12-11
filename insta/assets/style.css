@@ -1,0 +1,221 @@
+body{
+    background-image: url('../assets/web\ low.png');
+    background-color: #ddd;
+
+}
+
+.container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    height:100vh;
+}
+
+.header{
+    text-align:center;
+}
+
+.header h1{
+    padding:15px;
+    padding-bottom: 1px;
+}
+
+.header p{
+    font-size:1.5rem;
+    text-align:right;
+}
+
+
+.logo{
+    width: 20rem;
+    height: auto;
+    padding:20px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.header h1{
+    font-size:5rem; 
+}
+
+.rules{
+    width:70%;
+    margin: 0 auto;
+}
+
+.rules h1{
+    font-size:3rem;
+}
+
+.rules li{
+    padding:3px;
+    font-size: 1.5rem;
+}
+
+footer {
+    position: relative;
+    background-color: rgb(230 64 44);
+    color: #fff;
+    background-image: url(../assets/images/web.png);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+footer>img {
+    height: auto;
+    width: 100%;
+    position: absolute;
+}
+
+.cpy {
+    margin-top: 30px;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.cpy p {
+    font-size: 1rem;
+    color: #ffa194;
+}
+
+.cpy a {
+    color: bisque;
+    font-size: 1.2rem;
+}
+
+.f-content {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.f-content h4 {
+    font-size: 1.7rem;
+    margin: 10px 0;
+}
+
+.f-sec-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.f-sec-logo img {
+    width: 20rem;
+    height: auto;
+}
+
+.f-sec1-links,
+.f-sec2-links {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.f-sec3,
+.f-sec2,
+.f-sec1 {
+    width: 23.3333%
+}
+
+footer a {
+    color: bisque;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+}
+
+.f-sec-logo {
+    width: 30%
+}
+
+.f-sec3 p {
+    font-weight: 400;
+}
+
+@media only screen and (max-width:1200px) {
+    .f-sec3,
+    .f-sec2,
+    .f-sec1 {
+        width: 50%;
+        padding: 20px 0 0 20px;
+    }
+    .f-sec-logo {
+        width: 50%;
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .f-sec3,
+    .f-sec2,
+    .f-sec1 {
+        width: 100%;
+        padding: 20px 0 0 20px;
+    }
+    .f-sec-logo {
+        width: 100%;
+        padding: 10px 10px 10px 10px;
+    }
+    .f-content {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .f-sec-logo img {
+        width: 15rem;
+        height: auto;
+    }
+}
+
+footer a,
+footer p {
+    text-decoration: none;
+    padding-left: 5px;
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+footer .text {
+    font-size: 1rem;
+    color: bisque;
+}
+
+footer p {
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+
+.f-sec3-links {
+    height: 60px;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 10px;
+}
+
+.contact-link {
+    color: bisque;
+    transition: transform 0.05s ease-in;
+    padding-right: 40px;
+}
+
+.contact-link:hover {
+    transform: scale(1.15);
+    color: rgb(46, 46, 46);
+}
