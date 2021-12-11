@@ -1,57 +1,91 @@
-body{
+body {
     background-image: url('../assets/web\ low.png');
     background-color: #ddd;
 
 }
 
-.container{
-    display:flex;
-    align-items:center;
-    justify-content:center;
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    height:100vh;
+    height: 100vh;
     padding-bottom: 20px;
 }
 
-.header{
-    text-align:center;
+
+
+.header {
+    text-align: center;
 }
 
-.header h1{
-    padding:15px;
+.header h1 {
+    padding: 15px;
     padding-bottom: 1px;
 }
 
-.header p{
-    font-size:1.5rem;
-    text-align:right;
+.header p {
+    font-size: 1.5rem;
+    text-align: right;
 }
 
 
-.logo{
+.logo {
     width: 20rem;
     height: auto;
-    padding:20px;
+    padding: 20px;
     margin: 0 auto;
     display: flex;
 }
 
-.header h1{
-    font-size:5rem; 
+.header h1 {
+    font-size: 5rem;
 }
 
-.rules{
-    width:70%;
+.rules {
+    width: 70%;
     margin: 0 auto;
 }
 
-.rules h1{
-    font-size:3rem;
+.rules h1 {
+    font-size: 3rem;
 }
 
-.rules li{
-    padding:3px;
+.rules li {
+    padding: 3px;
     font-size: 1.5rem;
+}
+
+@media only screen and (max-width:600px) {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .rules h1 {
+        font-size: 3.2rem;
+    }
+
+    .rules li {
+        padding: 3px;
+        font-size: 1.2rem;
+    }
+
+    .header h1 {
+        padding: 15px;
+        padding-bottom: 1px;
+        font-size: 3.2rem;
+    }
+
+    .header p {
+        font-size: 1.2rem;
+        text-align: right;
+    }
+
 }
 
 footer {
@@ -150,12 +184,14 @@ footer a:hover {
 }
 
 @media only screen and (max-width:1200px) {
+
     .f-sec3,
     .f-sec2,
     .f-sec1 {
         width: 50%;
         padding: 20px 0 0 20px;
     }
+
     .f-sec-logo {
         width: 50%;
         padding: 10px 10px 10px 10px;
@@ -163,16 +199,19 @@ footer a:hover {
 }
 
 @media only screen and (max-width:600px) {
+
     .f-sec3,
     .f-sec2,
     .f-sec1 {
         width: 100%;
         padding: 20px 0 0 20px;
     }
+
     .f-sec-logo {
         width: 100%;
         padding: 10px 10px 10px 10px;
     }
+
     .f-content {
         margin-top: 10px;
     }
